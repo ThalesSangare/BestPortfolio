@@ -1,0 +1,620 @@
+/* Google Analytics POUR CONNAITRE LE NOMBRE DE VISITEUR MAIS A USE QUAND JE SUIS PRET A HEBERGER LE SITE */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+#img_avatar_index{
+    width: 500px;
+}
+
+.dark-mode #section-footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+body{
+    font-family: eurostile, sans-serif;
+    background-color: #121212;   
+    height: 2000px; /* Pour simuler une longue page */
+    padding: 20px;
+}
+#main{
+    margin-top: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2{
+    
+    font-size: 18px;
+}
+/* ==============DEBUT ENTETE================= */
+#logo{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #00353F;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+#logo a{
+    font-size: 12px;
+    color: white;
+
+}
+/* Style général pour la navigation */
+#navigation {
+    background-color: #000; /* Couleur de fond de la barre */
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: aqua; /* Couleur survol */
+}
+
+/* Menu collapsé stylisé */
+
+.collapse {
+    background-color: #00353F; 
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Alignement du menu à droite */
+.navbar-nav {
+    text-align: right; /* Texte aligné à droite */
+}
+
+/* Transition pour l'animation */
+.collapse.show {
+    animation: slide-in 0.3s ease-in-out;
+}
+
+/* ==============FIN ENTETE================= */
+
+
+
+#img_avatar_index{
+    width: 300px;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+
+#section-premier{
+    color: #fff;
+    /* ici je dois mettre quoi */
+    padding-left: 10px; /* Ajoute un léger espace intérieur */
+    margin-left: -100px; /* Rapproche cette colonne de l'image */
+}
+#section-premier h1{
+    color: aqua; 
+    font-family: 'Times New Roman', Times, serif;
+}
+#section-premier h2{
+    font-size: 24px;
+}
+
+
+#section-presentation{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: #00353F;
+    color: white;
+}
+#section-presentation #titre-langage{
+    margin-top: -100px;
+}
+
+#content-section-titre-presentation{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+#section-presentation h1{
+    padding-top: 10%;
+}
+
+#section-specialite{
+    margin-top: -100px;
+    background-color: #121212;
+    border: 1px solid gray;
+    border-radius: 20px;
+    color: white;
+    height: 400px;
+}
+
+#section-specialite h2{
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+#section-specialite img{
+    margin-top: 25px;
+    width: 150px;
+    /* border-radius: 50%; */
+    padding: 5px;
+}
+
+#titre-section-parcours{
+    color: #fff;
+}
+
+#section-parcours{
+    padding-left: 100px;
+}
+
+#ligne-section-parcours{
+    margin-left: 10%;
+}
+#IST{
+    background-image: url('../images/ist.jpg');  /* Image de fond */
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 2px;
+    background-color: #273746;
+    position: relative; /* Nécessaire pour positionner le texte */
+    background-size: cover; /* Ajuste l'image au conteneur */
+    background-position: center; /* Centre l'image */
+    overflow: hidden; /* Cache le contenu qui dépasse */
+    cursor: pointer; /* Change le curseur en mode clic */
+    transition: background 0.50s ease; 
+    width: 300px;
+    height: 200px;
+}
+
+#IST:hover{
+    background-image: none;
+    background-color: #273746;
+    color: #fff;
+}
+
+#OpenClassrooms{
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 2px;
+    background-color: #273746;
+    position: relative; /* Nécessaire pour positionner le texte */
+    background-image: url('../images/openclass.jpg');
+    background-size: cover; /* Ajuste l'image au conteneur */
+    background-position: center; /* Centre l'image */
+    overflow: hidden; /* Cache le contenu qui dépasse */
+    cursor: pointer; /* Change le curseur en mode clic */
+    transition: background 0.5s ease; 
+    width: 300px;
+    height: 200px;
+}
+
+#OpenClassrooms:hover{
+    background-image: none;
+    background-color: #273746;
+    color: #fff;
+}
+
+#IPL{
+    background-image: url('../images/ipl.jpg');  /* Image de fond */
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 2px;
+    background-color: #273746;
+    position: relative; /* Nécessaire pour positionner le texte */
+    background-size: cover; /* Ajuste l'image au conteneur */
+    background-position: center; /* Centre l'image */
+    overflow: hidden; /* Cache le contenu qui dépasse */
+    cursor: pointer; /* Change le curseur en mode clic */
+    transition: background 0.50s ease; 
+    width: 300px;
+    height: 200px;
+}
+
+#IPL:hover {
+    background-image: none;
+    background-color: #273746;
+    color: #fff;
+  }
+
+  /* Texte caché par défaut */
+  .colonne_parcours .text {
+    color: white;
+    font-size: 15px;
+    opacity: 0; /* Rendre le texte invisible */
+    transition: opacity 0.5s ease; /* Transition fluide */
+    z-index: 2; /* Assure que le texte est au-dessus */
+  }
+
+  .colonne_parcours:hover .text {
+    opacity: 1;
+  }
+
+
+ #section-titre-projet{
+    margin-top: 15px;
+    height: 500px;
+    background-color: #00353F;
+    color: #fff;
+  }
+
+  #content-section-titre-projet{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+  }
+
+  #content-section-titre-projet h1{
+    padding-top: 20%;
+  }
+
+#section-projet{
+    background-color: #121212;
+    border: 1px solid gray;
+    height: 400px;
+    margin-top: -100px;
+    border-radius: 20px;
+    color: white;
+}
+
+#section-projet h2{
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#footer{
+    background-color: #00353F;
+    color: #fff; 
+    
+}
+
+#section-footer{
+    height: 300px;
+}
+
+#section-footer ul{
+    list-style-type: none;
+}
+
+#section-footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#section-footer a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+#icones-footer{
+    margin-left: 20px;
+}
+
+#premierFooter{
+    margin-left: 100px;
+}
+
+#contactFooter ul{
+    margin-left: -25px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+     justify-content: flex-end;  /*Aligne le contenu au bas */
+    text-align: center;
+    font-size: 17px;
+}
+
+
+/* ============ RESPONSIVITE ==================== */
+
+
+@media (max-width: 992px) {
+    /* #section-presentation{
+        color: red;
+    } */
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .back-to-top {
+        display: none;
+    }
+
+    .container-fluid{
+        margin-top: -100px;
+    }
+
+    #img_avatar_index{
+        width: 300px;
+        border-radius: 50px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+
+    #section-premier{
+        width: 90%;
+        color: #fff;
+        margin-left: 18px;
+    }
+    #section-premier h1{
+        color: aqua; 
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    #section-premier h2{
+        font-size: 24px;
+    }
+
+
+    /* ============= PARTIE PRESENTATION ======================= */
+    #section-presentation{
+        width: 100%;
+    }
+    #section-presentation #titre-langage{
+        margin-top: -40px;
+    }
+    #content-section-titre-presentation{
+        width: 90%;
+        text-align: left;
+        margin-left:10%;
+        margin-top: -70px;
+    }
+    #content-section-titre-presentation h1{
+        text-align: center;
+    }
+
+       /* ============= PARTIE SPECIALITE  ================= */
+
+
+       #section-specialite{
+        width: 80%;
+        margin-top: -150px;
+        background-color: #121212;
+        border: 1px solid gray;
+        border-radius: 20px;
+        color: white;
+        height: 1150px;
+    }
+    
+    #section-specialite h2{
+        font-weight: 800;
+        margin-top: 15px;
+    }
+   
+    
+    #section-specialite img{
+        margin-top: 25px;
+        width: 150px;
+        padding: 5px;
+    }
+
+/* ============= PARTIE PARCOURS  ================= */
+
+    #titre-section-parcours{
+        color: #fff;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    #section-parcours{
+        padding-left: 100px;
+        display: flex;
+        justify-content: center;
+        margin-left: -50px;
+    }
+    
+    #ligne-section-parcours{
+        margin-left: 10%;
+
+    }
+
+    #IST{
+        margin-bottom: 20px;
+    }
+
+    #OpenClassrooms{
+        margin-bottom: 20px;
+    }
+
+    #IPL{
+        margin-bottom: 20px;
+    }
+
+      /* ========= SECTION PROJET REALISE ===============*/
+
+      #section-titre-projet{
+        width: 100%;
+        margin-top: 15px;
+        height: 300px;
+      }
+
+    
+      #content-section-titre-projet{
+        width: 80%;
+        /* text-align: justify; */
+        margin-left: 10%;
+      }
+    
+    
+    #section-projet{
+        width: 80%;
+        background-color: #121212;
+        border: 1px solid gray;
+        height: auto;
+        border-radius: 20px;
+        color: white;
+    }
+
+    #section-projet h2{
+        margin-bottom: 5px;
+    }
+
+    .colonne-projet{
+        line-height: 1.5;
+    }
+    
+    
+ /* ============= PARTIE FOOTER ======================= */
+
+#section-footer{
+    height: 600px;
+}
+
+    /* Maintenir les autres sections alignées horizontalement */
+    #navigationFooter, #suivezMoiFooter {
+        flex: 1; /* Prend la largeur disponible */
+    }
+
+   #suivezMoiFooter h3 {
+        margin-top: -25px; 
+    }
+
+    #suivezMoiFooter p{
+        margin-bottom: -2px;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 434px) {
+
+    .back-to-top {
+        display: none;
+    }
+
+     /* ============= PARTIE PRESENTATION ======================= */
+     #section-presentation{
+        width: 100%;
+        height: 400px;
+    }
+    #section-presentation #titre-langage{
+        margin-top: -40px;
+    }
+    #content-section-titre-presentation{
+        width: 90%;
+        text-align: left;
+        margin-left:10%;
+        margin-top: -70px;
+    }
+    #content-section-titre-presentation h1{
+        text-align: center;
+    }
+
+   /* ============= PARTIE SPECIALITE  ================= */
+   #section-specialite{
+    width: 80%;
+    margin-top: 50px;
+    background-color: #121212;
+    border: 1px solid gray;
+    border-radius: 20px;
+    color: white;
+    height: 1150px;
+}
+
+#section-specialite h2{
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+
+#section-specialite img{
+    margin-top: 25px;
+    width: 150px;
+    padding: 5px;
+}  
+    /* ========= SECTION PROJET REALISE ===============*/
+
+    #section-titre-projet{
+     width: 100%;
+     margin-top: 15px;
+     height: 500px;
+   }
+ 
+   #content-section-titre-projet{
+     width: 80%;
+     margin-left: 10%;
+   }
+ 
+ 
+   #section-projet{
+     width: 80%;
+     background-color: #121212;
+     border: 1px solid gray;
+     height: 1300px;
+     border-radius: 20px;
+     color: white;
+ }
+
+ #section-projet h2{
+    margin-bottom: 5px;
+}
+
+ .colonne-projet{
+     line-height: 1.5;
+ }
+
+
+ /* ============= PARTIE FOOTER ======================= */
+
+
+
+ #section-footer{
+ margin-top: 10px;
+ height: 600px;
+}
+
+#suivezMoiFooter h3 {
+     margin-top: -25px; 
+ }
+
+ #suivezMoiFooter p{
+     margin-bottom: -2px;
+ }
+
+
+
+}
+
+
+

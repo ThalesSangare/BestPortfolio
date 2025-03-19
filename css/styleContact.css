@@ -1,0 +1,200 @@
+body {
+    font-family: eurostile, sans-serif;
+    margin: 70px 0px;
+    background: #121212 !important;
+}
+
+/* ==============DEBUT ENTETE================= */
+#logo{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #00353F;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+#logo a{
+    font-size: 12px;
+    color: #fff;
+
+}
+/* Style général pour la navigation */
+#navigation {
+    background-color: #000; /* Couleur de fond de la barre */
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: aqua; /* Couleur survol */
+}
+
+/* Menu collapsé stylisé */
+
+.collapse {
+    background-color: #00353F; 
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Alignement du menu à droite */
+.navbar-nav {
+    text-align: right; /* Texte aligné à droite */
+}
+
+/* Transition pour l'animation */
+.collapse.show {
+    animation: slide-in 0.3s ease-in-out;
+}
+
+/* ==============FIN ENTETE================= */
+.divider {
+    width:100px;
+    height: 2px;
+    background: #ffa500;
+    margin: 0 auto 20px;
+}
+#Container-formulaire{
+    margin-top: 150px;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 60px; 
+           
+}
+h2 {
+    text-transform: uppercase;
+    font-weight:bold;
+    color: #fff;
+}
+#contact-form {
+    font-size: 20px;
+    background: #00353F;
+    padding: 40px;
+    border-radius: 10px;
+}
+#contact-form label {
+    color: #fff;
+}
+
+
+
+.blue {
+    color: #0069d6;
+}
+.form-control {
+    height: 50px;
+    font-size: 18px;
+}
+#contact-form input[type=submit] {
+    margin: 40px auto 0px;
+    display: block;
+}
+.comments {
+    font-style: italic;
+    font-size: 18px;
+    color: #d82c2e;
+    height: 25px;
+}
+#contact-form .thank-you {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.button1 {
+    border: 1px solid #ddd;
+    background: #ffa500;
+    color: #fff;
+    width: 100%;        
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+}
+.button1:hover {
+    background: #333;
+    border-color: #ffa500;
+}
+
+/* ======== FOOTER ================= */
+#footer{
+    margin-top: 30px;
+    background-color: #00353F;
+    color: #fff; 
+    
+}
+
+#section-footer{
+    height: 300px;
+}
+
+#section-footer ul{
+    list-style-type: none;
+}
+
+#section-footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#section-footer a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+#icones-footer{
+    margin-left: 20px;
+}
+
+#premierFooter{
+    margin-left: 100px;
+}
+
+#contactFooter ul{
+    margin-left: -25px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+     justify-content: flex-end;  /*Aligne le contenu au bas */
+    text-align: center;
+    font-size: 17px;
+}
+
+/* =========== RESPONSIVE ================= */
+@media (max-width: 768px) {
+    #section-footer{
+        height: 600px;
+    }
+    
+    /* Maintenir les autres sections alignées horizontalement */
+    #navigationFooter, #suivezMoiFooter {
+        flex: 1; /* Prend la largeur disponible */
+    }
+    
+    #suivezMoiFooter h3 {
+        margin-top: -25px; 
+    }
+    
+    #suivezMoiFooter p{
+        margin-bottom: -2px;
+    }
+}
+
+
