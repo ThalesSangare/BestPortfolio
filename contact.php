@@ -4,7 +4,7 @@
     // POUR LES ERREURS
     $firstnameError = $nameError = $emailError = $phoneError = $messageError = "";
     $isSuccess = false;
-    $emailTo = "sangarekabinet@gmail.com";
+    $emailTo = "sangarekabinet7@gmail.com";
     /* si c'est la 2em que user viens on rempli avec ce qu'il avait saisie
     * puis on verifie les saisies qu'il a faite
     *
